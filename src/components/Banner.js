@@ -18,7 +18,7 @@ function Banner() {
             interval={5000}
             >
                 <div>
-                    <img loading="lazy" src="https://links.papareact.com/gil" alt="" />
+                    <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
                 </div>
 
                 <div>
