@@ -25,9 +25,9 @@ function Banner() {
                     <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
                 </div>
 
-                <div>
+                {/* <div>
                     <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
-                </div>
+                </div> */}
             </Carousel>
         </div>
     )
