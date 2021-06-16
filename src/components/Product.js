@@ -30,7 +30,7 @@ function Product({id, title, price, description, category, image}) {
             hasPrime,
         };
 
-        // send product to store as an action
+        // send product to store as an action 
         dispatch(addToBasket(product))
     }
 
