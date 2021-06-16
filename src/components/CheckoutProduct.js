@@ -25,6 +25,11 @@ function CheckoutProduct({id, title, price, description, rating, category, image
         dispatch(addToBasket(product))
     }
 
+    const removeItemFromBasket = () => {
+        // remove item from redux
+        dispatch(removeFromBasket({ id }))
+    }
+
 
     return (
         <div className="grid grid-cols-5 ">
@@ -57,7 +62,7 @@ function CheckoutProduct({id, title, price, description, rating, category, image
             {/* add and remove button */}
             <div className="flex flex-col space-y-2 my-auto justify-self-end">
                 <button className="button" onClick={addItemToBasket}>Add To Basket</button>
-                <button className="button">Remove From Basket</button>
+                <button className="button" onClick={removeItemFromBasket}>Remove From Basket</button>
             </div>
         </div>
 
