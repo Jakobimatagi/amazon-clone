@@ -1,5 +1,5 @@
 Amazon Clone
-Using: React, Tailwind, and Firebase
+Using: React Next.js, Tailwind, and Firebase
 Commands
 
 Start App
